@@ -1,0 +1,49 @@
+body {
+    background: rgb(130, 90, 180);
+    font-family: Arial;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 24px;
+    margin: 0;
+    margin-top: 400px;
+}
+
+#txtemail{
+    background-color: rgb(80, 50, 117);
+    border: 2px solid rgb(80, 50, 117);
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 13pt;
+}
+
+h1{
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+#txtemail:focus{
+    border-color: white;
+    transition: .5s;
+}
+
+::placeholder{
+    font-weight: 600;
+    color: rgb(159, 159, 159);
+}
+
+#botaoenviar{
+    padding: 10px;
+    background-color:  rgb(80, 50, 117);
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 7px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 13pt;
+    border-color: rgb(156, 76, 255);
+    cursor: pointer;
+}
